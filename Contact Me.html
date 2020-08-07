@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title> 📲 Contact Me</title>
+  </head>
+
+  <body>
+    <h1>My Contact Details</h1>
+    <ul>
+      <li>Email : pearla@hotmail.com</li>
+      <li>Call : 555-555-5555</li>
+      <li>Line : La Pearla </li>
+    </ul>
+    <hr>
+
+    <form action="mailto:shiaandpearla@hotmail.com" method="post" enctype="text/plain"> <!-- The action attribute defines what will happen when you submit the form -->
+    <!-- The "method="post"" attribute will open a mail app on your computer or your cell phone for the customers to send the message -->
+    <!-- The "enctype="text/plain"" will tell the browser to show the plain text inside the email app that launched -->
+      <label>Your Name : </label>
+      <input type="text" name="YourName"> <!-- The "name" attribute inside each input element will show the user's response the title of the response -->
+      <br>
+      <label>Your Email : </label>
+      <input type="email" name="YourEmail">
+      <br>
+      <label>Your Messege : </label>
+      <br>
+      <textarea name="YourMessage" id="" cols="30" rows="10"></textarea> <!-- cols and rows are in pixel for your to specfify how big is the message box you want -->
+      <br>
+      <input type="submit">
+    </form>
+
+  </body>
+
+</html>
